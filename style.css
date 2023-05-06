@@ -132,4 +132,39 @@ body {
     box-shadow: 0 0 15px #6ea1f6;
     transform: scale(1.1);
   }
-  
+/* Estilos para el footer */
+footer {
+  background-color: #78756b;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer-info p {
+  font-size: 14px;
+  opacity: 0.8;
+  margin-bottom: 5px;
+}
+
+.footer-info .contact-name {
+  font-weight: bold;
+}
+
+.footer-social a {
+  margin-right: 10px;
+}
+
+.footer-social img {
+  width: 30px;
+  height: 30px;
+}
